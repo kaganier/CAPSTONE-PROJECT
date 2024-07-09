@@ -1,6 +1,6 @@
 # CAPSTONE-PROJECT
 ## About 
-This website showcasing different prayers and scriptures you can go to for certain situations. for example anxiety.
+This website will show case different prayers and scriptures to help with differnt situations. It will also allow you to submit a prayer request.
 ## contact 
 Kgganier@gmail.com
 ## WIREFRAME
