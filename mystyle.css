@@ -1,6 +1,9 @@
 html {
+  height: 100%;
+  width: 100%; 
 
 }
+
 h3 {
     color: crimson;
 }
@@ -32,8 +35,8 @@ nav {
 h5 {
     text-align: center;
      background-color: rgb(232, 90, 119);
-    font-size: 200;
-    font-weight: 200;
+    font-size: 150px;
+    font-weight: 50px;
     margin-top: 30px;
     margin-bottom: 30px;
 
@@ -51,6 +54,19 @@ h5 {
     margin-left: auto;
     margin-right: auto;
     width: 40%;
+  }
+
+h4 {
+    text-align: center;
+    font-size: 400;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: blue;
+    border-style: solid;
+
+}
+
   }
    
     
