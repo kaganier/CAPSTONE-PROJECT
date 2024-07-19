@@ -6,20 +6,21 @@ function myScriptureChanger() {
     "Whats your favorite scripture that helps with your mental health crisis?"
   );
   time = prompt("what is your favorite time to pray?");
-  myScriptureChangerHeader.innerHTML = `Hello according to you ${scripture} is your favorite buble verse!`;
-  myScriptureChsngerParagraph.innerHTML = `${time} is what you picked as your favorite prayer time keep it up!`;
+  myScriptureChangerHeader.innerHTML = `Hello according to you ${scripture} is your favorite bible verse and ${time} is your preferred time to pray!`;
+  myScriptureChangerParagraph.innerHTML = `Thanks for answering!`;
 }
 
 myScriptureChangerButton.onclick = myScriptureChanger;
 
 function myMentalHelperChanger() {
   let coping;
-  let syles;
+  let styles;
 
   coping = prompt("How often do you utilize mental health coping mechanisms");
   styles = prompt("What are some of your coping styles?");
 
-  myMentalHelperChangerButton.onClick = myMentalHelperChanger;
-
+  myMentalHelperChangerHeader.innerHTML = `Looks like you chose ${coping} this many times a day to help you manage mental stress`;
+  myMentalHelperChangerParagraph.innerHTML = `Excellent! ${styles} is a great way to keep calm in stressful situations!`;
 }
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+myMentalHelperChangerButton.onclick = myMentalHelperChanger;

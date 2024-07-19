@@ -1,99 +1,75 @@
 html {
   height: 100%;
-  width: 100%; 
-
+  width: 100%;
 }
 
 h3 {
-    color: crimson;
-    
+  color: crimson;
 }
-    
-    
-
-
 
 h1 {
-    text-align: center;
-    border: solid;
-    border-color: black;
-    background-color: rgb(232, 90, 119);
-    
-    
-}   
-    
-
-
+  text-align: center;
+  border: solid;
+  border-color: black;
+  background-color: rgb(232, 90, 119);
+}
 
 nav {
-    display:flex;
-    justify-content:space-around;
-    margin-top: 40 ;
-    margin-bottom: 40;
-    margin-left: 40;
-    margin-right: 40;  
-    
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40;
+  margin-bottom: 40;
+  margin-left: 40;
+  margin-right: 40;
 }
 
 h5 {
-    text-align: center;
-     background-color: rgb(232, 90, 119);
-    font-size: 50px;
-    font-weight: 20px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    
-
-    
+  text-align: center;
+  background-color: rgb(232, 90, 119);
+  font-size: 50px;
+  font-weight: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
-
-
-
-
-  
-
-  img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-    
-  }
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
 
 h4 {
-    text-align: center;
-    font-size: 400;
-    font-weight: 400;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    background-color: blue;
-    border-style: solid;
+  text-align: center;
+  font-size: 400;
+  font-weight: 400;
+  margin-top: 30px;
+  margin-bottom: 30px;
 
+  background-color: deepskyblue;
+  border-style: solid;
 }
 
- #listofscriptures {
+#listofscriptures {
   font-size: 30px;
- } 
-   
- h1.coping {
-text-align: center;
-position: center;
-text-align: center;
-    border: solid;
-    border-color: black;
-    background-color: rgb(232, 90, 119);
-    padding: 2px ;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
- }
+}
 
- main {
-  text-decoration-color: rgb(206, 6, 6);
+main {
   text-align: center;
-  grid-template-columns: inherit;
- }
-    
+  margin: 10;
+  padding: 5;
+  border: none;
+  text-size-adjust: 25px;
+  text-shadow: darksalmon;
+}
 
+.Alt-info {
+  text-align: justify;
+  text-decoration: solid;
+  font-size: 20px;
+  font-weight: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-style: italic;
+    color: crimson;
+}
